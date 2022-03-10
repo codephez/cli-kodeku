@@ -1,0 +1,42 @@
+{
+  "name": "cli-kodeku",
+  "version": "1.0.0",
+  "description": "cli for generate vue project example",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cli-kodeku": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codephez/cli-kodeku.git"
+  },
+  "keywords": [
+    "cli",
+    "vue-cli",
+    "inquirer",
+    "commander",
+    "template-project"
+  ],
+  "author": " (asp.my.id@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codephez/cli-kodeku/issues"
+  },
+  "homepage": "https://github.com/codephez/cli-kodeku#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "eslint": "^8.10.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.1"
+  }
+}
